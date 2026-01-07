@@ -1,3 +1,46 @@
 <h1>Olá, Mundo!</h1>
 <p>Eu sou o novo programador.</p>
 <button onclick="alert( 'Parabéns!seu primeiro código funcionou!')">Clique aqui</button>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gean Elias</title>
+    <style>
+        /* Cole aqui todo aquele código que você usou na caixa de CSS do CodePen */
+        body {
+          background: linear-gradient(135deg, #1a1a2e, #16213e);
+          color: white;
+          font-family: sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+        .container { text-align: center; }
+        .avatar { width: 100px; height: 100px; border-radius: 50%; border: 3px solid #00ff88; }
+        .links { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+        .link { 
+            background-color: rgba(255, 255, 255, 0.1); 
+            color: white; 
+            text-decoration: none; 
+            padding: 15px 40px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://github.com/eliasgean22-dotcom.png" alt="Sua Foto" class="avatar">
+        <h1>Gean Elias</h1>
+        <p>Desenvolvedor em Formação 🚀</p>
+        <div class="links">
+            <a href="https://github.com/eliasgean22-dotcom" class="link">Meu GitHub</a>
+            <a href="#" class="link">Meu LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
