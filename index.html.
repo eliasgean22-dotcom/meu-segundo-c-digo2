@@ -1,0 +1,3 @@
+<h1>Olá, Mundo!</h1>
+<p>Eu sou o novo programador.</p>
+<button onclick="alert( 'Parabéns!seu primeiro código funcionou!')">Clique aqui</button>
