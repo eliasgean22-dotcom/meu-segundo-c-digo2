@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Soma</titles>
+    <style>
+      /* CSS; DECORE - estilza a aparencia*/
+      body { font-family: sans-serif; display: flex; flex-direction: column  align-items: center; heigh: 100vh; background-color: #f0f0f0; }
+      input { padding: 10px; margin: 5px; border-radius: 5px; border: 1px solid #ccc; width: 100px; }
+      button { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style></title>
+  </head>
+
+     <h2>Somar Dois Numeros</h2>
+     <input type="number" id="valor1"placeholder="Numero 1">
+     <input type="number" id="valor2"placeholder="Numero 2">
+       <button
+         onclick="fazerSoma()">Calcular</button>button>
+   <p>Resultado:<span id="resultado">0</span></p>
+
+    <script>
+      // JS: DECORE - Cria a lógica da conta 
+      function fazerSoma() {
+        // 1. Busca os valores pelo ID
+         const n1 = document.getElementById('valor1') .value;
+        // 2.converte para o numero e soma 
+        const total = Number(n1) + Number(n2);
+        // 3. Exibe na tela
+        document.getElementById('resultado').innerText = total; 
+      }
+    </script>
+</body>
+</html>
